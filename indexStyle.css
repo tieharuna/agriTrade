@@ -251,7 +251,7 @@ main {
   }
   .famer {
     padding: 70px;
-    border: 5px solid;
+/*     border: 5px solid; */
   }
   .famer .farmer-picture {
     max-height: 30% !important;
@@ -373,7 +373,7 @@ main {
   }
   .famers-sellers,
   .product-buyer {
-    border: 3px solid;
+/*     border: 3px solid; */
     flex-direction: column;
     /* display: grid;
     grid-template-columns: 1fr; */

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="indexStyle.css">
+    <title>Add product</title>
+  </head>
+  <body>
+    <header>
+      <div class="brand-logo-container">
+        <img src="agriTradeLogo1.png" alt="AgriTrade logo" class="brand-logo" />
+      </div>
+      <nav>
+        <ul class="navigation-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="marketPlace.html">Market</a></li>
+          <li><a href="add-products.html">Add Products</a></li>
+        </ul>
+        <div class="animation start-home"</div>
+
+      </nav>
+     
+        <a href="#" class="sign-Up">signIn</a>
+        <a href="#" class="sign-In">signUp</a>
+      
+    </header>
+    <main>
+      <section id="add-product">
+        <h2>Add Product</h2>
+        <form id="productForm">
+          <input
+            type="text"
+            id="productName"
+            placeholder="Product Name"
+            required
+          />
+          <input type="text" id="productPrice" placeholder="Price" required />
+          <input type="file" id="productImage" accept="image/*" />
+          <textarea
+            id="productDescription"
+            placeholder="Product Description"
+            required
+          ></textarea>
+          <input type="email" name="mail" id="mail" class="email" placeholder="enter your email">
+          <input type="tel" class="contact" placeholder="Your whatsApp or call number ">
+          <input type="text" placeholder="Location" id="loca">
+          <button type="submit">Add Product</button>
+        </form>
+      </section>
+
+      <section id="posted-products">
+        <h2>My Posted Products</h2>
+        <div id="productList"></div>
+        <div id="productList" class="product-list"></div>
+      </section>
+    </main>
+    <script src="dashboard3.js"></script>
+    <!-- <script src="dashboard2.js"></script> -->
+    <!-- <script src="dashboard.js"></script> -->
+  </body>
+</html>

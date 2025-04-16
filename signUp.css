@@ -1,0 +1,68 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 5%;
+  background-image: url("agriTradeLogo1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: conver;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.registration-form {
+  width: 70%;
+  height: 80%;
+  padding: 20px;
+  display: block;
+  margin: 10% auto;
+  margin-top: 10%;
+  /* border: 3px solid; */
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+}
+#signupForm {
+  /* display: block; */
+  margin: 20px auto;
+  width: 90%;
+  /* border: 3px solid; */
+}
+#username,
+#email,
+#password {
+  margin: 18px;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.already-have-account {
+  display: block;
+}
+@media (max-width: 949px) {
+  body {
+    margin: 0 2%;
+  }
+  .registration-form {
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    width: 90%;
+    /* margin: 0 auto; */
+  }
+  #signupForm {
+    width: 90%;
+  }
+}

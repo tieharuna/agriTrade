@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signin - AgriTrade</title>
+    <link rel="stylesheet" href="indexStyle.css" />
+    <link rel="stylesheet" href="signIn.css" />
+  </head>
+  <body>
+
+    <header style="z-index: 999;">
+        <div class="brand-logo-container">
+          <img src="agriTradeLogo1.png" alt="AgriTrade logo" class="brand-logo" />
+        </div>
+        <button aria-expanded="false" class="mobile-nav-toggle"></button>
+        <nav>
+          <ul class="navigation-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="marketPlace.html">Market</a></li>
+            <!-- <li><a href="add-products.html">Add Products</a></li> -->
+             <li> <a href="signUp.html" class="sign-Up">signUp</a></li>
+          </ul>
+          <div class="animation start-home"</div>
+  
+        </nav>
+        
+          <!-- <a href="signIn.html" class="sign-In">signIn</a> -->
+         
+        
+      </header>
+    
+    <div class="signIn-form">
+        <h2>Sign In</h2>
+        <form id="signinForm">
+            <input type="email" id="email" placeholder="Email" required /><br />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            /><br />
+            <button type="submit">Sign In</button>
+          </form>
+          <p class="dont-have-account">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+    
+   <script src="mobileNav.js"></script>
+    <script src="signin.js"></script>
+  </body>
+</html>

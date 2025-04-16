@@ -1,0 +1,97 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriTrade Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="indexStyle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand-logo-container">
+        <img src="agriTradeLogo1.png" alt="AgriTrade logo" class="brand-logo" />
+      </div>
+      <nav>
+        <a href="index.html">🏠 Home</a>
+        <a href="marketplace.html">🛒 Buy Products</a>
+        <a href="add-products.html">Add Products</a>
+      </nav>
+    </header>
+    <main class="content">
+      <h2>Welcome to our dashboard</h2>
+      <!-- dashboard.html -->
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>AgriTrade Dashboard</title>
+          <link rel="stylesheet" href="dashboard.css" />
+        </head>
+        <body>
+          <header>
+            <h1>AgriTrade Seller Dashboard</h1>
+            <nav>
+              <a href="index.html">🏠 Home</a>
+              <a href="marketplace.html">🛒 Buy Products</a>
+            </nav>
+          </header>
+
+          <main>
+            <section id="add-product">
+              <h2>Add Product</h2>
+              <form id="productForm">
+                <input
+                  type="text"
+                  id="productName"
+                  placeholder="Product Name"
+                  required
+                />
+                <input
+                  type="text"
+                  id="productPrice"
+                  placeholder="Price"
+                  required
+                />
+                <input type="file" id="productImage" accept="image/*" />
+                <textarea
+                  id="productDescription"
+                  placeholder="Product Description"
+                  required
+                ></textarea>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  class="email"
+                  placeholder="enter your email"
+                />
+                <input
+                  type="tel"
+                  class="contact"
+                  placeholder="Your whatsApp or call number "
+                />
+                <input type="text" placeholder="Location" id="loca" />
+                <button type="submit">Add Product</button>
+              </form>
+            </section>
+
+            <section id="posted-products">
+              <h2>My Posted Products</h2>
+              <div id="productList"></div>
+            </section>
+          </main>
+
+          <script src="dashboard3.js"></script>
+
+          <!-- <script src="dashboard.js"></script> -->
+        </body>
+      </html>
+    </main>
+  </body>
+</html>
